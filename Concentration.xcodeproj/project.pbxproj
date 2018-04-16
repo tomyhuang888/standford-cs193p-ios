@@ -12,6 +12,8 @@
 		3177D1902079A88B001DBD45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3177D18E2079A88B001DBD45 /* Main.storyboard */; };
 		3177D1922079A88B001DBD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3177D1912079A88B001DBD45 /* Assets.xcassets */; };
 		3177D1952079A88B001DBD45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3177D1932079A88B001DBD45 /* LaunchScreen.storyboard */; };
+		E9AF19B32082B940005568ED /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF19B22082B940005568ED /* Concentration.swift */; };
+		E9AF19B52082BA67005568ED /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF19B42082BA67005568ED /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3177D1912079A88B001DBD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3177D1942079A88B001DBD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3177D1962079A88B001DBD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AF19B22082B940005568ED /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		E9AF19B42082BA67005568ED /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				31B7C455207C211300557724 /* Supporting Files */,
 				3177D18C2079A88B001DBD45 /* ViewController.swift */,
 				3177D18E2079A88B001DBD45 /* Main.storyboard */,
+				E9AF19B22082B940005568ED /* Concentration.swift */,
+				E9AF19B42082BA67005568ED /* Card.swift */,
 				3177D1962079A88B001DBD45 /* Info.plist */,
 			);
 			path = Concentration;
@@ -104,7 +110,7 @@
 				TargetAttributes = {
 					3177D1862079A88B001DBD45 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -146,6 +152,8 @@
 			files = (
 				3177D18D2079A88B001DBD45 /* ViewController.swift in Sources */,
 				3177D18B2079A88B001DBD45 /* AppDelegate.swift in Sources */,
+				E9AF19B32082B940005568ED /* Concentration.swift in Sources */,
+				E9AF19B52082BA67005568ED /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQM9GQN3L3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.26768493.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,12 +307,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TQM9GQN3L3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.26768493.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
